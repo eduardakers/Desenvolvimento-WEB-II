@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cadastro Login</title>
+  <meta name="author" content="Kamilly Eduarda :: eduardakers@gmail.com">
+  <meta name="description" content="Criando formulário em HTML e CSS">
+  <meta name="keywords" content="HTML, CSS, Layout, Formulário, One Page">
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="shortcut icon" href="img/icon.png">
+</head>
+
+<body>
+  <main>
+    <section class="conteudo" id="home">
+      <h1 class="titulo">Preencha com seus dados</h1>
+      <form action="#" method="post" name="form1">
+        <fieldset class="dados">
+          <legend>Cadastro Login</legend>
+          <label for="nome">Nome: </label>
+          <input type="text" name="txtnome" size="30" id="nome" required>
+          <br>
+          <label for="apelido">Apelido: </label>
+          <input type="text" name="txtapelido" size="30" id="apelido">
+          <br>
+          <label for="email">Email: </label>
+          <input type="text" name="txtemail" size="30"  id="email" required>
+          <br>
+          <label for="senha">Senha: </label>
+          <input type="password" name="passenha" size="10" id="senha" minlength="10" required>
+          <br>
+          <label for="repetirsenha">Repetir Senha: </label>
+          <input type="password" name="txtpass" size="10" id="repetirsenha" minlength="10" required>
+          <br>
+          <input type="reset" name="apagar" value="Limpar">
+        &nbsp;&nbsp;
+        <input type="submit" name="enviar" value="Enviar">
+        </fieldset>
+      </form>
+    </section>
+    <footer class="rodape">
+      <p>
+        Todos os direitos autorais reservados à Kamilly Eduarda &copy;
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>
